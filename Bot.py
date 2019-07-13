@@ -18,9 +18,9 @@ logger = logging.getLogger()
 
 # Getting mode, so we could define run function for local and Heroku setup
 
-mode = os.getenv("MODE")
+mode = os.getenv("dev")
 
-TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("804893610:AAGGJGPrzhCF-CjEwH5-p_ifjeOVXe5KQEo")
 
 if mode == "dev":
 
